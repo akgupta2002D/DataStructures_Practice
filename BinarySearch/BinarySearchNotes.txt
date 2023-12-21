@@ -1,0 +1,14 @@
+Sorted List Required: Ensure the list is sorted.
+Initial Indices: Set initialIndex = 0 and finalIndex = len(list) - 1.
+Middle Index Calculation: Use midIndex = (initialIndex + finalIndex) // 2.
+Loop Condition: Use while initialIndex <= finalIndex.
+Update Indices Correctly:
+If list[midIndex] < target, then initialIndex = midIndex + 1.
+If list[midIndex] > target, then finalIndex = midIndex - 1.
+Return Value:
+Return midIndex if target is found.
+Return -1 if target is not found.
+Handle Edge Cases: Include cases for empty lists and single-element lists.
+Test Thoroughly: Check with various test cases.
+Efficiency: More efficient for large, sorted datasets.
+Readability: Use clear variable names and comments.
