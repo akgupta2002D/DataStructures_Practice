@@ -12,3 +12,4 @@ def merge(list):
 def merge(left, right):
     
     # So, need to divide them and then compare something ( but what? ) and then merge them.
+    return 
