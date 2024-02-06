@@ -127,6 +127,10 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+dataStructure/
+dataStructure
+.dataStructure
+.dataStructure/
 
 # Spyder project settings
 .spyderproject
