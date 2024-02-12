@@ -1,0 +1,1 @@
+This method is used to find the runtime of reccursive methods using a tree diagram.
